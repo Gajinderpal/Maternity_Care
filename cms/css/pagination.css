@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+.my-navigation
+{
+width:100%;
+overflow: hidden;
+}
+.page-btn a
+{
+ float:left;
+ color:#000;
+ text-decoration:none;
+ border:1px solid #ccc;
+ padding:3px 10px;
+ background:#ddd;
+ margin:10px 0;
+}
+.page-btn a:hover
+{
+color: #333;
+background:#fff;
+}
+a[class*="simple-pagination-navigation-disabled"] {
+color: #333;
+background:#fff;
+}
+.simple-pagination-page-x-of-x, .simple-pagination-showing-x-of-x
+{
+margin:5px 0;
+}
+
+.page-display
+{
+margin:10px;
+margin-left:0;
+}
+
+#first-container
+{
+margin:0 0 40px 0;
+}
